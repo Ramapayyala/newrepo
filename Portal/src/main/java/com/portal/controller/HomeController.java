@@ -25,10 +25,10 @@ public class HomeController {
 		return "login";
 	}
 	
-	@GetMapping("/admin/home")
+	@GetMapping("/home")
 	public String adminindex() {
 		
-		return "admin/index";
+		return "index";
 	}
 	
 }
